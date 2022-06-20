@@ -1,0 +1,163 @@
+
+:root {
+    --font: 'Montserrat', sans-serif;
+
+    --grey1: #333333;
+    --grey2: #4F4F4F;
+    --grey3: #828282;
+}
+
+.marg-left { margin-left: 3.1rem; }
+
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    font-family: var(--font);
+    margin: 6.4rem auto 2.3rem auto;
+    background-color: aqua;
+    max-width: 96.1rem;
+}
+
+.checkout {
+    font-weight: 600;
+    font-size: 3.6rem;
+}
+
+.flex-container {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.flex-container__form {
+    display: flex;
+    flex-direction: column;
+    width: 46.5rem;
+    margin-right: auto;
+    background-color: aquamarine;
+}
+
+.flex-container__form--h2 {
+    font-size: 1.8rem;
+    
+    color: var(--grey1);
+    margin: 5rem 0 1.4rem 0;
+}
+
+
+.form-section {
+    background-color: pink;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.form__label {
+    font-size: 1.2rem;
+    color: var(--grey2);
+    margin: 2rem 0 .7rem 0; 
+    display: block;
+}
+
+.icon {
+    position: absolute;
+    left: 1.4rem;
+    top: 0;
+    font-size: 2rem;
+    color: var(--grey3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__input {
+    display: block;
+    color: var(--grey1);
+    border: 1px solid var(--grey3);
+    border-radius: 1.2rem;
+
+    width: 46.5rem;
+    height: 5.6rem;
+    line-height: 2rem;
+    outline: 0;
+    padding-left: 5.2rem;
+    font-size: 1.6rem;
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+.form__input::placeholder {
+    font-family: var(--font);
+    font-size: 1.6rem;
+    color: var(--grey3);
+    font-weight: 600;
+}
+
+.form__flex-box {
+    display: flex;
+}
+
+.world {
+    width: 21.7rem;
+    display: inline-block;
+}
+
+
+
+.region {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-container__preview {
+    background-color: beige;
+    width: 38.3rem;
+    height: 53.5rem;
+}
