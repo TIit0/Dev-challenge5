@@ -14,7 +14,7 @@
 }
 
 .marg-left { margin-left: 3.1rem;}
-.marg-top { margin-top: 2.8rem;}
+.marg-top { margin-top: 5.8rem;}
 .marg-btm {margin-bottom: 9.5rem;}
 
 
@@ -67,7 +67,7 @@ body {
     font-size: 1.8rem;
     
     color: var(--grey1);
-    margin: 0 0 1.4rem 0;
+    margin-bottom: 1.4rem;
 }
 
 
