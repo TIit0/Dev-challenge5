@@ -153,6 +153,7 @@ body {
     border-radius: .4rem;
 }
 
+/* arrow down for country select   */
 .region {
 
 background-image: url(images/chevron.png);
@@ -161,6 +162,9 @@ background-size: 2rem;
 background-position: right;
 
 }
+
+
+/*  start of checkbox button   */
 
 .btn-wrapper {
     display: flex;
@@ -225,9 +229,11 @@ background-position: right;
 .btn:active { transform: translateY(-.1rem); background-color: var(--orange2); }
 
 
+/* end of checkbox button   */
 
 
 
+/* sub total section */
 
 .flex-container__preview {
     background-color: var(--grey6);
@@ -288,6 +294,8 @@ margin-left: 3rem;
 }
 
 
+/*   counter button  */
+
 .counter-wrapper {
     margin-top: 3.3rem;
     display: flex;
@@ -328,7 +336,9 @@ margin-left: 3rem;
     background-color: var(--grey5);
     color: var(--grey3);
     cursor: pointer;
-}
+} 
+
+/*  end of counter button    */
 
 .flex-container__preview__subtotal {
     width: 80%;
@@ -351,8 +361,11 @@ margin-left: 3rem;
     font-weight: 600;
     font-size: 1.4rem;
     color: var(--grey1);
+    
 }
 
+
+/*  success and Failure styles   */
 .form__input.success {
     border: 3px solid var(--green);
 }
@@ -391,7 +404,12 @@ margin-left: 3rem;
     display: inline-block;
 }
 
+/* en of success and failure styles AKA validations   */
 
+
+
+
+/* credits/footer   */
 
 .devchallenges {
     font-style: var(--font);
@@ -403,6 +421,11 @@ margin-left: 3rem;
     max-width: 96.1rem;
 
 }
+#zip {
+    cursor: text;
+}
+
+                           /* Start of media queries */
 
 
 @media only screen and (max-width: 65.625em) {  /* 1050 px   */
