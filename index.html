@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,10 @@
 
   <!-- Google fonts link  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
-<!-- Stylesheets -->
-<link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
 
   <title>Check Out</title>
 </head>
@@ -21,7 +22,7 @@
 
 
 <body>
-  
+
   <main class="wrapper">
     <h1 class="checkout">Checkout</h1>
     <section class="flex-container">
@@ -32,62 +33,69 @@
 
           <label for="" class="form__label">E-mail</label>
           <div class="form-section">
-          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-          <input type="email" class="form__input" id="email" placeholder="Enter your email...">
+            <span class="icon "><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" class="form__input " id="email" placeholder="Enter your email...">
           </div>
+          <small class="message">error</small>
 
           <label for="" class="form__label">Phone</label>
           <div class="form-section">
-          <span class="icon"><i class="fa-solid fa-phone"></i></span>
-          <input type="tel" class="form__input" id="email" placeholder="Enter your phone...">
+            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+            <input type="tel" class="form__input " id="phone" placeholder="Enter your phone...">
           </div>
+          <small class="message">error</small>
 
           <h2 class="flex-container__form--h2 marg-top">Shipping address</h2>
 
           <label for="" class="form__label">Full name</label>
           <div class="form-section">
-          <span class="icon"><i class="fa-solid fa-circle-user"></i></span>
-          <input type="tel" class="form__input" id="email" placeholder="Enter your Full name...">
+            <span class="icon"><i class="fa-solid fa-circle-user"></i></span>
+            <input type="text" class="form__input " id="name" placeholder="Enter your Full name...">
           </div>
+          <small class="message">error</small>
 
           <label for="" class="form__label">Address</label>
           <div class="form-section">
-          <span class="icon"><i class="fa-solid fa-house"></i></span>
-          <input type="tel" class="form__input" id="email" placeholder="Your address..">
+            <span class="icon"><i class="fa-solid fa-house "></i></span>
+            <input type="text" class="form__input " id="address" placeholder="Your address..">
           </div>
+          <small class="message">error</small>
 
           <label for="" class="form__label">City</label>
           <div class="form-section">
-          <span class="icon"><i class="fa-solid fa-city"></i></span>
-          <input type="tel" class="form__input" id="email" placeholder="Your city..">
+            <span class="icon"><i class="fa-solid fa-city "></i></span>
+            <input type="text" class="form__input " id="city" placeholder="Your city..">
           </div>
+          <small class="message">error</small>
 
           <div class="form__flex-box">
             <div class="form__flex-box--separator">
               <label for="" class="form__label">Country</label>
               <div class="form-section">
-              <span class="icon"><i class="fa-solid fa-earth-americas"></i></span>
-              <span class="icon2 region"></span>
-              <select type="" class="form__input short world" id="email">
-                
-                <option selected disabled>Your country..</option>
-                <option>Canada</option>
-                <option>USA</option>
-                <option>Mexico</option>
-                
+                <span class="icon"><i class="fa-solid fa-earth-americas "></i></span>
+                <span class="icon2 region"></span>
+                <select type="" class="form__input  short world" id="country">
+
+                  <option selected disabled>Your country..</option>
+                  <option>Canada</option>
+                  <option>USA</option>
+                  <option>Mexico</option>
+
                 </select>
               </div>
+              <small class="message">error</small>
             </div>
 
 
             <div class="form__flex-box--separator marg-left">
               <label for="" class="form__label">Postal code</label>
-          <div class="form-section">
-          <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
-          <input type="tel" class="form__input short" id="email" placeholder="Your postal code..">
-          </div>
+              <div class="form-section">
+                <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+                <input type="text" class="form__input short" id="zip" placeholder="Your postal code..">
+              </div>
+              <small class="message">error</small>
             </div>
-          
+
           </div>
 
           <div class="btn-wrapper">
@@ -95,7 +103,7 @@
             <label for="check">Save this information for next time</label>
           </div>
 
-          
+
 
         </form>
         <button class="btn" type="submit" form="form">Continue</button>
@@ -109,8 +117,8 @@
           <div class="flex-container__preview__info">
             <p class="flex-container__preview__info--name">Vintage Backbag</p>
             <div class="flex-container__preview__info--price">
-            <p class="flex-container__preview__info--price--actual actual1">$54.99</p>
-            <p class="flex-container__preview__info--price--normal no-discount1">$94.99</p>
+              <p class="flex-container__preview__info--price--actual actual1">$54.99</p>
+              <p class="flex-container__preview__info--price--normal no-discount1">$94.99</p>
             </div>
             <div class="counter-wrapper">
               <span class="counter-wrapper--minus minus1">-</span>
@@ -126,8 +134,8 @@
           <div class="flex-container__preview__info">
             <p class="flex-container__preview__info--name">Levi Shoes</p>
             <div class="flex-container__preview__info--price">
-            <p class="flex-container__preview__info--price--actual actual2">$74.99</p>
-            <p class="flex-container__preview__info--price--normal no-discount2">$124.99</p>
+              <p class="flex-container__preview__info--price--actual actual2">$74.99</p>
+              <p class="flex-container__preview__info--price--normal no-discount2">$124.99</p>
             </div>
             <div class="counter-wrapper">
               <span class="counter-wrapper--minus minus2">-</span>
@@ -136,7 +144,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="flex-container__preview__subtotal">
           <span class="flex-container__preview__subtotal--indicator">Shipping</span>
           <span class="flex-container__preview__subtotal--num">$19</span>
@@ -150,8 +158,9 @@
     </section>
   </main>
   <p class="devchallenges">created by Tito - devChallenges.io</p>
-  
+
 
   <script src="script.js"></script>
 </body>
+
 </html>

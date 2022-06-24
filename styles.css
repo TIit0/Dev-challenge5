@@ -11,6 +11,8 @@
     --grey4: #BDBDBD;
     --grey5: #E0E0E0;
     --grey6: #F2F2F2;
+    --green: #2ecc71;
+    --red: #e74c3c;
 }
 
 .marg-left { margin-left: 3.1rem;}
@@ -351,7 +353,43 @@ margin-left: 3rem;
     color: var(--grey1);
 }
 
+.form__input.success {
+    border: 3px solid var(--green);
+}
 
+.form__input.error {
+    border: 3px solid var(--red);
+}
+
+
+.icon.success {
+    color: var(--green);
+}
+
+.icon.error {
+    color: var(--red);
+}
+
+.message {
+    visibility: hidden;
+}
+
+.message.error {
+    visibility: visible;
+    color: var(--red);
+    font-size: 1rem;
+
+}
+
+.form__input.short.world.error {
+    width: 21.7rem;
+    display: inline-block;
+}
+
+.form__input.short.world.success {
+    width: 21.7rem;
+    display: inline-block;
+}
 
 
 
