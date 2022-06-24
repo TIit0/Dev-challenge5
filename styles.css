@@ -62,6 +62,7 @@ body {
     flex-direction: column;
     width: 46.5rem;
     margin-right: auto;
+    background-color: #df8c43;
     
 }
 
@@ -74,7 +75,6 @@ body {
 
 
 .form-section {
-    
     position: relative;
     display: flex;
     align-items: center;
@@ -115,6 +115,7 @@ body {
     font-size: 1.6rem;
     font-family: var(--font);
     font-weight: 600;
+    cursor: text;
 }
 
 .form__input::placeholder {
@@ -402,4 +403,172 @@ margin-left: 3rem;
     margin: 6.4rem auto 2.3rem auto;
     max-width: 96.1rem;
 
+}
+
+
+@media only screen and (max-width: 65.625em) {  /* 1050 px   */
+
+    .wrapper {
+        font-family: var(--font);
+        margin: 3.2rem auto 2.3rem auto;
+        max-width: 96.1rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .checkout {
+        font-weight: 600;
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .flex-container {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-container__preview {
+        background-color: var(--grey6);
+        display: flex;
+        flex-direction: column;
+        width: 38.3rem;
+        height: 53.5rem;
+        border-radius: 1.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .flex-container__form {
+        display: flex;
+        flex-direction: column;
+        width: 46.5rem;
+        margin-right: initial;
+        order: 1;
+    }
+}
+
+
+
+@media only screen and (max-width: 34.375em) {  /* 550 px */
+
+    .checkout {
+        font-size: 2.4rem;
+    }
+
+    .flex-container__preview {
+        background-color: var(--grey6);
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+        height: 48.9rem;
+        border-radius: 1.2rem;
+        margin-bottom: 4rem;
+    }
+
+
+    .img {
+        width: 12.2rem;
+        height: 12.4rem;
+        margin-left: 2.6rem;
+        }
+
+        .flex-container__preview__info--name { font-size: 1.2rem; }
+
+        .flex-container__preview__info { margin-left: 1.8rem; }
+
+        .flex-container__preview__info--price--actual { font-size: 1.4rem; }
+
+        .flex-container__preview__info--price--normal { font-size: 1rem; }
+
+        .counter-wrapper {
+            margin-top: 3rem;
+            height: 4.9rem;
+            width: 12.2rem;
+        }
+
+        .flex-container__preview__subtotal { height: 3.7rem; }
+
+        .flex-container__preview__subtotal--indicator { font-size: 1.4rem; }
+
+    .form-section {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 35rem;
+    }
+
+    .flex-container__form--h2 {
+        font-size: 1.4rem;
+        width: 18rem;
+        margin-bottom: 0;
+    }
+
+
+    .form__label {
+        font-size: 1rem;
+        margin: 1rem 0 .5rem 0; 
+    }
+
+
+    .form__input {
+        width: 35rem;
+        height: 4rem;
+        line-height: 1.5rem;
+        padding-left: 3.5rem;
+        font-size: 1.2rem;
+    }
+
+        .form__input::placeholder { font-size: 1.2rem; }
+
+    .marg-top { margin-top: 3.5rem;}
+
+    .icon {
+        left: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .icon2 {
+        right: 1.2rem;
+        top: 1.1rem;
+    }
+
+
+    .short {
+        width: 16.2rem;
+        display: inline-block;
+    }
+
+    .form-section--small {
+        width: 16.2rem;
+    }
+
+    .form {
+        background-color: #2ecc71;
+    }
+
+    .flex-container__form {
+        display: flex;
+        flex-direction: column;
+        width: 35.5rem;
+        margin-right: initial;
+        order: 1;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 34.375em) {
+
+
+    .checkout {
+        align-self: flex-start;
+        margin-left: 2rem;
+    }
 }
