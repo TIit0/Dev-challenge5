@@ -246,7 +246,7 @@ function checkInputs() {
         zipCheck = false;
 
     } else if (!validateZip(zipValue)) {
-        setErrorFor(phone, "invalid zip");
+        setErrorFor(zip, "invalid zip");
         zipCheck = false;
 
     } else {
@@ -340,6 +340,8 @@ function setSuccessFor(input) {
         input.className = "form__input short success world"
         return 
     }
+
+    /*     everything else but country & zip         */
 
     const icon = input.previousElementSibling;
     const formSection = input.parentElement;
